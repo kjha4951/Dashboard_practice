@@ -1,0 +1,73 @@
+
+    .box-container {
+        background-color: pink;
+        width: fit-content;
+        height: 300px;
+        background-color: aliceblue;
+        border-radius: 10px;
+        width: 30%;
+        padding-left: 20px;
+        padding-top: 0px;
+        margin-top: 10px;
+        border: 1px solid;
+    }
+
+    .box-title {
+        color: rgb(0, 0, 0);
+        text-align: left;
+    }
+
+.pink-box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.pink-box .error, .sli,.disruption{
+margin: 10px;
+width: 100px;
+height: 80px;
+border: 1px solid;
+border-radius: 8px;
+text-align: center;
+font-size: 14px;
+}
+
+.error{
+    background-color: rgb(254, 203, 203);
+}
+
+.disruption{
+    background-color: rgb(247, 238, 202);
+}
+.sli{
+  background-color: rgb(255, 255, 255);  
+}
+
+.AllData{
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding:18px;
+    flex-wrap: wrap;
+
+    
+}
+
+.ListOftheevents{
+    display: flex;
+    padding: 8px;
+    margin: 8px;
+    justify-content: space-between;
+}
+.title{
+    font-weight: 500;
+    margin-right: 40px;
+    text-align: left;
+}
+.value{
+    text-align: right;
+}

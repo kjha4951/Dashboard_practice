@@ -1,0 +1,78 @@
+.dashboardfront{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.Mainheader{
+    display: flex;
+    background-color: rgb(200, 249, 233);
+    width: 100%;
+    align-items: center;
+    height: 40px;
+    border-radius: 10px;    
+
+}
+.Mainheader svg{
+    margin-left: 20px;
+    color: rgb(99, 254, 202);
+}
+.heading p.dashboardfront{
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 8px; 
+}
+.dashboardfront .Mainheader .Line{
+    display: flex;
+    margin-left: 8px;
+}
+
+.dashboardfront .nameofitems{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: space-between;  
+}
+
+.dashboardfront .Mainheader .Line p{
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 5px;
+    padding:  0 5px;
+    font-size: 15px;
+}
+
+
+
+.Mainheader1{
+    display: flex;
+    background-color: rgb(223, 242, 197);
+    width: 100%;
+    align-items: center;
+    height: 40px;
+    border-radius: 10px;    
+
+}
+.Mainheader1 svg{
+    margin-left: 20px;
+    color: rgb(139, 245, 9);
+}
+.heading1 p.dashboardfront{
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 8px; 
+}
+.dashboardfront .Mainheader1 .Line1{
+    display: flex;
+    margin-left: 8px;
+}
+
+
+
+.dashboardfront .Mainheader1 .Line1 p{
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 5px;
+    padding:  0 5px;
+    font-size: 15px;
+}
