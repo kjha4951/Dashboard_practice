@@ -47,12 +47,14 @@ font-size: 14px;
 
 .AllData{
     display: flex;
-    font-size: 12px;
+    font-size: 10px;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
     padding:18px;
     flex-wrap: wrap;
+    font-weight: bold;
+    /* margin-top: 20px; */
 
     
 }
@@ -67,7 +69,13 @@ font-size: 14px;
     font-weight: 500;
     margin-right: 40px;
     text-align: left;
+    /* margin-top: 20px; */
 }
 .value{
     text-align: right;
+    color: rgb(249, 126, 126);
 }
+.title .value{
+    margin-top: 70px;
+}
+
